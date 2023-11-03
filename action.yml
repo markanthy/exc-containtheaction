@@ -1,0 +1,14 @@
+name: 'My container action'
+description: 'A fancy gentleman'
+author: 'Mark Anthy'
+inputs:
+  myInput:
+    description: 'Welcome lads, how ya doin?'
+    required: true
+    default: 'Fine Gentleman'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
